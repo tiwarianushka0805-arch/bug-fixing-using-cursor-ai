@@ -1,21 +1,34 @@
 # Bug Fixing Using Cursor AI
 
 ## Project Overview
-This project demonstrates how to identify and fix a logical error in a Python program that calculates the average of numbers.
+This project demonstrates how Cursor AI can help identify and fix a logical error in a Python program that calculates the average of numbers.
 
 ## Bug Identified
-The original program used `total = num` instead of `total += num`. This replaced the total in every iteration rather than adding the numbers.
+The original program used `total = num` inside the loop. This replaced the total with the current number instead of adding all the numbers, resulting in an incorrect average.
 
-## Correction
-The statement was changed to `total += num` to calculate the correct sum.
+## Bug Fix
+The incorrect statement was replaced with `total += num`, which adds each number to the running total.
+
+## Example
+**Input:** `[10, 20, 30, 40, 50]`
+
+**Incorrect Output:** `10.0`
+
+**Correct Output:** `30.0`
 
 ## Technologies Used
 - Python
-- Google Colab
-- Cursor AI (to be used to review and fix the bug)
+- Cursor AI
+- GitHub
 
-## Project File
-- `bug_fixing_cursor_ai.ipynb` — Contains the buggy and corrected versions of the program.
+## Project Files
+- `buggy_average.py` — Contains the original program with the logical error.
+- `fixed_average.py` — Contains the corrected program.
 
-## Learning Outcome
-Learned how to identify a logical error and correct a Python program's calculation.
+## Learning Outcomes
+- Learned to identify logical errors in Python.
+- Understood the difference between assignment and addition assignment.
+- Practiced using Cursor AI to review and debug code.
+
+## Conclusion
+This project demonstrates how AI-assisted coding tools can help identify logical errors and improve the correctness of Python programs.
