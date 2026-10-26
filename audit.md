@@ -10,8 +10,8 @@
 | Logical error identified | Completed |
 | Corrected Python code included | Completed |
 | Cursor AI used to analyze the bug | Completed |
-| Corrected output checked | To be verified |
-| README matches the project files | To be verified |
+| Corrected output checked | Completed |
+| README matches the project files | Completed|
 
 ## Bug Analysis
 
